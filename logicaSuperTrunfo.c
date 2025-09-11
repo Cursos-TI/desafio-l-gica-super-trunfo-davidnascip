@@ -154,6 +154,8 @@ void MenudeEscolhaeComparacao(){
             else{
                 printf("\nEmpate! Densidade Populacional Carta 1 %.2f e Densidade Populacional Carta 2 %.2f\n", DensidadePopulacional1, DensidadePopulacional2);}
             break;
+        default:
+            printf("Opção inválida");
         }
     }
 
